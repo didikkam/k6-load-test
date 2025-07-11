@@ -1,0 +1,95 @@
+# Root level .gitignore for k6-load-test workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.test
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Test results and reports
+test-results/
+coverage/
+reports/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# K6 specific
+k6-results.json
+k6-results.xml
+k6-results.html
+
+# Load test results
+*-results.json
+*-results.xml
+*-results.html
+capacity-analysis.json
+rps-capacity-analysis.json
+simple-results.json
+laravel-capacity.json
+
+# Node modules (if any at root level)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+bin/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Go specific (if any at root level)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# Configuration files with sensitive data
+config.json
+config.yaml
+config.yml
+secrets.json
+secrets.yaml
+secrets.yml 
